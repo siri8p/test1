@@ -8,6 +8,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class Hello {
      @RequestMapping("/hello")
     public String sayHello() {
-        return "Hello, World  sirisha!  and samanvitha and viha ";
+         System.out.println("Hello, World  sirisha!");
+        return "Hello, World  sirisha!  and samanvitha and vihaqq ";
     }
+    @RequestMapping("/hi")
+     public String  hi() {
+        return "hi there!";
+     }
 }
