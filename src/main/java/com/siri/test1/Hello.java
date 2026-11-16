@@ -10,4 +10,8 @@ public class Hello {
     public String sayHello() {
         return  "samanvitha";
     }
+    @RequestMapping("/hi")
+     public String  hi() {
+        return "hi there!";
+     }
 }
