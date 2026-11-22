@@ -9,6 +9,7 @@ public class Hello {
     @RequestMapping("/hello")
     public String sayHi() {
         System.out.println("this is the code of dev2");
+        System.out.println("pratice of pull command");
         return "hello dev2";
 
     }
